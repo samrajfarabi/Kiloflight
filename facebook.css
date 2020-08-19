@@ -1,0 +1,95 @@
+.facebook{
+    position: relative;
+    padding-bottom: 60px;
+    
+  left:70px;
+  
+}
+
+.linkedin{
+   position:relative;
+   padding-bottom:60px;
+   left:80px;
+}
+
+.mapp{
+    position: relative;
+    padding-bottom:60px;
+    right:41px
+}
+
+
+.text123{
+    position: relative;
+    font-size: 100px;
+    color:#959595 ;
+    font:Bernard MT Condensed ;
+    text-shadow: 3px 3px #838383;
+    left:28%;
+    
+}
+
+
+
+@media(max-width:768px){
+.facebook {
+        position: relative;
+        top:30px;
+        left:6%;
+    }
+.text123{
+        position: relative;
+        left:27px; 
+        font-size:50px;
+    }
+.mapp{
+        position: relative;
+        padding-bottom: 30px;
+        left: 1%;
+        height:500px;
+        width:340px;
+        }
+.linkedin{
+         position: relative;
+         top:30px;
+         left:5%;
+    }
+}
+
+
+
+@media(max-width:1224px){
+    .text123{
+        font-size: 90px;
+    }
+}
+
+
+@media(max-width:360px){
+    .facebook {
+        position: relative;
+        top:10px;
+        left:2.5%;
+    }
+    .text123{
+       position: relative;
+    font-size: 50px;
+    color:#959595 ;
+    font:Bernard MT Condensed ;
+    text-shadow: 1px 1px #838383;
+    left:24%;
+    }
+    .mapp{
+        position: relative;
+        padding-bottom: 30px;
+        left: 2%;
+     }
+    .linkedin{
+        position: relative;
+        top:10px;
+        left:1%;
+    }
+    iframe{
+        width: 340px;
+    }
+}
