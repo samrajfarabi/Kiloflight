@@ -1,0 +1,26 @@
+.trns{
+    transition: background-color .7s;
+    transition-timing-function:linear;
+}
+
+.trns:hover{
+    width:352px;
+    height:660px;
+}
+.card-body{
+    transition: background-color .7s;
+    transition-timing-function:linear;
+}
+.card-header{
+    transition: background-color .7s;
+    transition-timing-function:linear;
+}
+
+
+
+.card-body:hover{
+    background-color:#b2b2b2;
+}
+.card-header:hover{
+    background-color:#b2b2b2;
+}
