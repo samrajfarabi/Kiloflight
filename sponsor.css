@@ -20,7 +20,7 @@ p{
 .sptxt{
     font-size: 70px;
     color:black ;
-    font-family: "montserrat" ;
+    font-family: "montserrat",sans-serif ;
     text-shadow: 3px 3px #838383;
 }
 
@@ -31,7 +31,7 @@ p{
     
 }
 .btni{
-   border-radius: 5px;
+   border-radius: 20px;
     display:block;
     height: 40px;
     text-align: center;
@@ -41,6 +41,13 @@ p{
     margin-bottom:35px;
     position:relative;
     left:689px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0 ,0 , 0, 0.1 );
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    
 }
 .btn-p
 {
@@ -49,8 +56,26 @@ p{
 .btn-p:hover
 {
     background-color: #5262d8;
-}
-
-.trns{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     
 }
+
+.btns
+{
+    background-color: black;
+}
+.btns:hover
+{
+    transition-timing-function:linear;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.btn{
+    border-radius:20px;
+    color:#fff;
+}
+
+
